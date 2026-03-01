@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ═══ SEO PRIMAIRE ════════════════════════════════════ -->
     <title>Contact — Écrire à C. Vigné, auteur des aventures gastronomiques d'Emilien Goûtu</title>
     <meta name="description"
         content="Contactez C. Vigné, auteur du roman gastronomique Les aventures d'Emilien Goûtu. Partagez vos impressions, posez vos questions ou échangez autour de la gastronomie et de la littérature." />
@@ -13,49 +12,37 @@
         content="contacter C. Vigné, contact auteur roman gastronomique, écrire à C. Vigné, Emilien Goutu contact auteur, message auteur gastronomie, C. Vigné écrivain contact" />
     <meta name="author" content="C. Vigné" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://emilien-goutu.netlify.app/contact.html" />
+    <link rel="canonical" href="https://cvigne-site.netlify.app/contact.html" />
 
-    <!-- ═══ OPEN GRAPH ═══════════════════════════════════════ -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://emilien-goutu.netlify.app/contact.html" />
+    <meta property="og:url" content="https://cvigne-site.netlify.app/contact.html" />
     <meta property="og:title" content="Contact — Écrire à C. Vigné, auteur d'Emilien Goûtu" />
     <meta property="og:description"
         content="Envoyez un message à C. Vigné, auteur des aventures gastronomiques d'Emilien Goûtu. Toutes les lettres sont les bienvenues." />
-    <meta property="og:image" content="https://emilien-goutu.netlify.app/images/couverture.jpg" />
+    <meta property="og:image" content="https://cvigne-site.netlify.app/images/couverture.jpg" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="Emilien Goûtu — C. Vigné" />
 
-    <!-- ═══ TWITTER CARD ════════════════════════════════════ -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Contact — C. Vigné, auteur d'Emilien Goûtu" />
     <meta name="twitter:description"
         content="Envoyez un message à C. Vigné, auteur des aventures gastronomiques d'Emilien Goûtu." />
 
-    <!-- ═══ SCHEMA.ORG JSON-LD ══════════════════════════════ -->
     <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": "Contacter C. Vigné — Auteur d'Emilien Goûtu",
-    "description": "Page de contact de C. Vigné, auteur du roman gastronomique Les aventures d'Emilien Goûtu.",
-    "url": "https://emilien-goutu.netlify.app/contact.html",
-    "author": {
-      "@type": "Person",
-      "name": "C. Vigné"
-    },
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "Emilien Goûtu — C. Vigné",
-      "url": "https://emilien-goutu.netlify.app/"
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contacter C. Vigné — Auteur d'Emilien Goûtu",
+      "description": "Page de contact de C. Vigné, auteur du roman gastronomique Les aventures d'Emilien Goûtu.",
+      "url": "https://cvigne-site.netlify.app/contact.html",
+      "author": { "@type": "Person", "name": "C. Vigné" },
+      "isPartOf": { "@type": "WebSite", "name": "Emilien Goûtu — C. Vigné", "url": "https://cvigne-site.netlify.app/" }
     }
-  }
-  </script>
+    </script>
 
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
     <link rel="apple-touch-icon" href="images/favicon.svg" />
     <meta name="theme-color" content="#c8924a" />
-
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -82,7 +69,6 @@
         </div>
     </header>
 
-    <!-- H1 avec mots-clés auteur -->
     <section class="page-hero">
         <h1 class="section-title">Écrire à C. Vigné</h1>
         <p>Auteur des aventures gastronomiques d'Emilien Goûtu — toutes vos lettres sont les bienvenues</p>
@@ -97,9 +83,11 @@
             ou simplement dire bonjour — toutes les lettres sont les bienvenues.
         </p>
 
-        <!-- Formulaire Netlify Forms -->
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form"
-            class="formulaire fade-in" aria-label="Formulaire de contact">
+        <!-- Formulaire Netlify Forms — action explicite vers / -->
+        <form name="contact" method="POST" action="/contact-succes.html" data-netlify="true"
+            netlify-honeypot="bot-field" id="contact-form" class="formulaire fade-in"
+            aria-label="Formulaire de contact">
+
             <input type="hidden" name="form-name" value="contact" />
             <p style="display:none;">
                 <label>Ne pas remplir : <input name="bot-field" /></label>
@@ -159,7 +147,6 @@
     </footer>
 
     <script src="js/main.js"></script>
-    <!-- Netlify Identity Widget -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </body>
 

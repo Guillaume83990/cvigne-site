@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message envoyé — Emilien Goûtu</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <meta name="theme-color" content="#c8924a" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .succes-page {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .succes-icon {
+            font-size: 3rem;
+            color: var(--ambre);
+            margin-bottom: 1.5rem;
+        }
+
+        .succes-titre {
+            font-family: var(--font-titre);
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            color: var(--brun);
+            margin-bottom: 1rem;
+        }
+
+        .succes-texte {
+            font-style: italic;
+            color: var(--texte-doux);
+            max-width: 480px;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                Emilien Goûtu
+                <span>C. Vigné — Auteur</span>
+            </a>
+            <nav>
+                <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="histoires.html">Histoires</a></li>
+                    <li><a href="livre.html">Le Livre</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="succes-page">
+        <div class="succes-icon">✦</div>
+        <h1 class="succes-titre">Message envoyé !</h1>
+        <p class="succes-texte">
+            Merci pour votre message.<br>
+            C. Vigné vous répondra avec plaisir dans les meilleurs délais.
+        </p>
+        <a href="index.html" class="btn btn-primary">Retour à l'accueil</a>
+    </main>
+
+    <footer>
+        <div class="footer-logo">Emilien Goûtu</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoires.html">Histoires</a></li>
+                <li><a href="livre.html">Le Livre</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">© 2025 C. Vigné · <em>Les aventures gastronomiques d'Emilien Goûtu</em></p>
+        <nav class="footer-legal">
+            <ul>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="cgu.html">CGU</a></li>
+            </ul>
+        </nav>
+        <p class="merci-footer">Merci Papa ❤️</p>
+        <p class="credit-footer">Création <a href="https://www.sudwebproject.com" target="_blank" rel="noopener">Sud Web
+                Project</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</body>
+
+</html>
