@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ═══ SEO PRIMAIRE ════════════════════════════════════ -->
+    <title>Contact — Écrire à C. Vigné, auteur des aventures gastronomiques d'Emilien Goûtu</title>
+    <meta name="description"
+        content="Contactez C. Vigné, auteur du roman gastronomique Les aventures d'Emilien Goûtu. Partagez vos impressions, posez vos questions ou échangez autour de la gastronomie et de la littérature." />
+    <meta name="keywords"
+        content="contacter C. Vigné, contact auteur roman gastronomique, écrire à C. Vigné, Emilien Goutu contact auteur, message auteur gastronomie, C. Vigné écrivain contact" />
+    <meta name="author" content="C. Vigné" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://emilien-goutu.netlify.app/contact.html" />
+
+    <!-- ═══ OPEN GRAPH ═══════════════════════════════════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://emilien-goutu.netlify.app/contact.html" />
+    <meta property="og:title" content="Contact — Écrire à C. Vigné, auteur d'Emilien Goûtu" />
+    <meta property="og:description"
+        content="Envoyez un message à C. Vigné, auteur des aventures gastronomiques d'Emilien Goûtu. Toutes les lettres sont les bienvenues." />
+    <meta property="og:image" content="https://emilien-goutu.netlify.app/images/couverture.jpg" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Emilien Goûtu — C. Vigné" />
+
+    <!-- ═══ TWITTER CARD ════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contact — C. Vigné, auteur d'Emilien Goûtu" />
+    <meta name="twitter:description"
+        content="Envoyez un message à C. Vigné, auteur des aventures gastronomiques d'Emilien Goûtu." />
+
+    <!-- ═══ SCHEMA.ORG JSON-LD ══════════════════════════════ -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contacter C. Vigné — Auteur d'Emilien Goûtu",
+    "description": "Page de contact de C. Vigné, auteur du roman gastronomique Les aventures d'Emilien Goûtu.",
+    "url": "https://emilien-goutu.netlify.app/contact.html",
+    "author": {
+      "@type": "Person",
+      "name": "C. Vigné"
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Emilien Goûtu — C. Vigné",
+      "url": "https://emilien-goutu.netlify.app/"
+    }
+  }
+  </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="apple-touch-icon" href="images/favicon.svg" />
+    <meta name="theme-color" content="#c8924a" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                Emilien Goûtu
+                <span>C. Vigné — Auteur</span>
+            </a>
+            <nav>
+                <button class="burger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="histoires.html">Histoires</a></li>
+                    <li><a href="livre.html">Le Livre</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- H1 avec mots-clés auteur -->
+    <section class="page-hero">
+        <h1 class="section-title">Écrire à C. Vigné</h1>
+        <p>Auteur des aventures gastronomiques d'Emilien Goûtu — toutes vos lettres sont les bienvenues</p>
+    </section>
+
+    <main class="contact-page" aria-label="Formulaire de contact C. Vigné">
+        <p class="fade-in">
+            <strong>C. Vigné</strong> sera ravi de recevoir vos messages. Que vous ayez été touché par une
+            <strong>histoire gastronomique</strong> d'Emilien Goûtu, que vous souhaitiez partager un souvenir
+            de table, donner votre avis sur le <a href="livre.html"
+                title="Le roman gastronomique d'Emilien Goûtu">roman</a>
+            ou simplement dire bonjour — toutes les lettres sont les bienvenues.
+        </p>
+
+        <!-- Formulaire Netlify Forms -->
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form"
+            class="formulaire fade-in" aria-label="Formulaire de contact">
+            <input type="hidden" name="form-name" value="contact" />
+            <p style="display:none;">
+                <label>Ne pas remplir : <input name="bot-field" /></label>
+            </p>
+
+            <div class="form-groupe">
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Jean Dupont" required autocomplete="name" />
+            </div>
+
+            <div class="form-groupe">
+                <label for="email">Votre adresse e-mail</label>
+                <input type="email" id="email" name="email" placeholder="jean@exemple.fr" required
+                    autocomplete="email" />
+            </div>
+
+            <div class="form-groupe">
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="À propos d'Emilien Goûtu…" />
+            </div>
+
+            <div class="form-groupe">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, j'ai beaucoup aimé…" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        </form>
+
+        <div class="form-succes" id="form-succes">
+            <p>✦ Merci pour votre message !</p>
+            <p>C. Vigné vous répondra avec plaisir dans les meilleurs délais.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">Emilien Goûtu</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoires.html">Histoires</a></li>
+                <li><a href="livre.html">Le Livre</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">© 2026 C. Vigné · <em>Les aventures gastronomiques d'Emilien Goûtu</em></p>
+        <p class="merci-footer">Merci Papa ❤️</p>
+
+        <nav class="footer-legal">
+            <ul>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="cgu.html">CGU</a></li>
+            </ul>
+        </nav>
+        <p class="credit-footer">Création <a href="https://www.sudwebproject.com" target="_blank" rel="noopener">Sud Web
+                Project</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /netlify/
+Disallow: /merci.html
+
+Sitemap: https://emilien-goutu.netlify.app/sitemap.xml

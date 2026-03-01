@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page introuvable — Emilien Goûtu | C. Vigné</title>
+    <meta name="description" content="La page que vous cherchez n'existe pas. Retournez sur le site d'Emilien Goûtu." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="apple-touch-icon" href="images/favicon.svg" />
+    <meta name="theme-color" content="#c8924a" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .erreur-page {
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .erreur-code {
+            font-family: var(--font-titre);
+            font-size: clamp(5rem, 15vw, 9rem);
+            font-weight: 900;
+            color: var(--ambre);
+            line-height: 1;
+            opacity: 0.25;
+            margin-bottom: 0;
+        }
+
+        .erreur-icon {
+            font-size: 3rem;
+            margin: -1rem 0 1.5rem;
+        }
+
+        .erreur-titre {
+            font-family: var(--font-titre);
+            font-size: clamp(1.5rem, 4vw, 2.2rem);
+            color: var(--brun);
+            margin-bottom: 1rem;
+        }
+
+        .erreur-texte {
+            font-style: italic;
+            color: var(--texte-doux);
+            max-width: 480px;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+
+        .erreur-liens {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                Emilien Goûtu
+                <span>C. Vigné — Auteur</span>
+            </a>
+            <nav>
+                <button class="burger" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="histoires.html">Histoires</a></li>
+                    <li><a href="livre.html">Le Livre</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="erreur-page">
+        <p class="erreur-code">404</p>
+        <div class="erreur-icon">🍽️</div>
+        <h1 class="erreur-titre">Cette page n'est pas au menu…</h1>
+        <p class="erreur-texte">
+            Emilien Goûtu a beau parcourir le monde entier, il ne trouve pas la page
+            que vous cherchez. Elle a peut-être été déplacée ou n'existe plus.
+        </p>
+        <div class="erreur-liens">
+            <a href="index.html" class="btn btn-primary">Retour à l'accueil</a>
+            <a href="histoires.html" class="btn btn-outline">Lire les histoires</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-logo">Emilien Goûtu</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoires.html">Histoires</a></li>
+                <li><a href="livre.html">Le Livre</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">© 2025 C. Vigné · <em>Les aventures gastronomiques d'Emilien Goûtu</em></p>
+        <nav class="footer-legal">
+            <ul>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="cgu.html">CGU</a></li>
+            </ul>
+        </nav>
+        <p class="merci-footer">Merci Papa ❤️</p>
+        <p class="credit-footer">Création <a href="https://www.sudwebproject.com" target="_blank" rel="noopener">Sud Web
+                Project</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
