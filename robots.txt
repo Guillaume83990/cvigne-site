@@ -4,5 +4,4 @@ Disallow: /admin/
 Disallow: /netlify/
 Disallow: /merci.html
 Disallow: /contact-succes.html
-
-Sitemap: https://cvigne-site.netlify.app/sitemap.xml
+Sitemap: https://cvigne.netlify.app/sitemap.xml
