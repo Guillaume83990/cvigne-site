@@ -4,28 +4,32 @@ backend:
 
 locale: fr
 
-media_folder: images/uploads
-public_folder: /images/uploads
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: histoires
     label: Histoires
     label_singular: Histoire
-    folder: content/histoires
+    folder: "content/histoires"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+
     fields:
       - label: Titre
         name: titre
         widget: string
+
       - label: Date
         name: date
         widget: date
         format: "YYYY-MM-DD"
+
       - label: Publié
         name: publie
         widget: boolean
         default: true
+
       - label: Contenu
         name: body
         widget: markdown
