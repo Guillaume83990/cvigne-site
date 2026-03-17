@@ -1,6 +1,13 @@
 [build]
   publish = "."
 
+# ── Redirection ancien domaine → nouveau (301 permanent) ──
+[[redirects]]
+  from   = "https://cvigne-site.netlify.app/*"
+  to     = "https://cvigne.netlify.app/:splat"
+  status = 301
+  force  = true
+
 # ── Page 404 personnalisée ─────────────────────────────────
 [[redirects]]
   from   = "/*"
