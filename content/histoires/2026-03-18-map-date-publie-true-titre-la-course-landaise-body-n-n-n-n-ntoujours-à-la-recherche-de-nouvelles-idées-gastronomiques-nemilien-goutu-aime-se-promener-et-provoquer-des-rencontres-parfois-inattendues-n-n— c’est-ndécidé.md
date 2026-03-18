@@ -3,16 +3,10 @@ titre: La Course Landaise
 date: ""
 publie: true
 ---
-
-
-
-
-
 Toujours à la recherche de nouvelles idées (gastronomiques),
 Emilien Goutu aime se promener et provoquer des rencontres parfois inattendues.
 
-— C’est
-décidé, je prends ma voiture et je pars dans le Sud-Ouest en faisant d’abord une
+— C’est décidé, je prends ma voiture et je pars dans le Sud-Ouest en faisant d’abord une
 petite halte du côté de Poitiers, se dit-il !
 
 Quelques coups de téléphone et le rendez-vous est pris pour
