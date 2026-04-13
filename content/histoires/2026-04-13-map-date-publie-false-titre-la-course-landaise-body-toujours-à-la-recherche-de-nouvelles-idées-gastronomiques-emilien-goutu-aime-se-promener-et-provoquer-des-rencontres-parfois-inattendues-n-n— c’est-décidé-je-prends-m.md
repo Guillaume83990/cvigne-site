@@ -1,7 +1,7 @@
 ---
 titre: La Course Landaise
 date: ""
-publie: false
+publie: true
 ---
 Toujours à la recherche de nouvelles idées (gastronomiques), Emilien Goutu aime se promener et provoquer des rencontres parfois inattendues.
 
