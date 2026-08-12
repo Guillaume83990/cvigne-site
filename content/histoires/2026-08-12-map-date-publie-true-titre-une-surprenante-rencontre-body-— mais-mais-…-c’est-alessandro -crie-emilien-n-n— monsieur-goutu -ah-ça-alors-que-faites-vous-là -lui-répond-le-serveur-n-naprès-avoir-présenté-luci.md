@@ -9,7 +9,7 @@ publie: true
 
 Après avoir présenté Lucien, Emilien explique les circonstances qui les ont fait se rencontrer.
 
-— Il y a quelques années, j’ai connu Alessandro lorsqu’il avait un restaurant italien à paris, et j’avais fait un très bel article à son sujet pour un grand magazine, ce qui lui avait permis de voir sa clientèle affluer très rapidement.
+— Il y a quelques années, j’ai connu Alessandro lorsqu’il avait un restaurant italien à Paris, et j’avais fait un très bel article à son sujet pour un grand magazine, ce qui lui avait permis de voir sa clientèle affluer très rapidement.
 
 — Oui, absolument, monsieur Goutu avait encensé ma cuisine et le Tout-Paris s’était aussitôt précipité dans mon établissement.
 
