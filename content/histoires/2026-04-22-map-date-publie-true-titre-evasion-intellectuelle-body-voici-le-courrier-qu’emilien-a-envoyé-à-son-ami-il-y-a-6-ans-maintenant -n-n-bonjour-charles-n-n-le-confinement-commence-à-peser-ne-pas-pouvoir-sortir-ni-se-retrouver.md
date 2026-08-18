@@ -57,8 +57,6 @@ Voici le courrier qu’Emilien a envoyé à son ami il y a 6 ans maintenant :
 
 *A bientôt*
 
-*C. Vigné*
-
 — Bon, je pense qu’il n’est pas très bon de ressasser tous ces souvenirs, il faut aller de l’avant et je crois que la nuit dernière j’ai fait un rêve prémonitoire.
 
 Que va faire Emilien ?
