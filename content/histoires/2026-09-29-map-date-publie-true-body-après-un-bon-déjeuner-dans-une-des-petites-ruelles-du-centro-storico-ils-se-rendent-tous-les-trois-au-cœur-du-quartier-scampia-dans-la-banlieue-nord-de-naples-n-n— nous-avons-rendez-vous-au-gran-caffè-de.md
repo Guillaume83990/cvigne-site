@@ -19,7 +19,7 @@ Une fois tous attablés, Alessandro explique ce qu’a fait Emilien Goutu pour l
 
 — Vous n’y allez pas par quatre chemins interpelle Andrea, un autre ami d’enfance d’Alessandro. J’aime cette franchise ! Mais je peux vous dire de suite que nous n’y sommes pour rien. Nous n’avons jamais mis les pieds à Saint-Emilion.
 
-Ce que confirment Augusto et Lodovico qui n’avaient pas encore prit la parole.
+Ce que confirment Augusto et Lodovico qui n’avaient pas encore pris la parole.
 
 — Néanmoins, nous sommes prêts à vous aider pour trouver les auteurs de cet acte et ce, pour deux raisons, annonce Battista. Tout d’abord parce que pour nous l’amitié est une valeur très importante. Comme vous avez aidé Alessandro et que vous semblez partager les mêmes valeurs que nous, nous mettrons tout en œuvre pour résoudre votre affaire. Ensuite, sachez que nous n’acceptons pas que le travail de toute une année des ouvriers agricoles de votre ami soit anéanti en une nuit.
 
